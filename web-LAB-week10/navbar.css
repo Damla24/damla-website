@@ -1,0 +1,49 @@
+/* Genel ayarlar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #153016;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Menü listesi */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Menü elemanları */
+nav ul li {
+    display: inline;
+}
+
+/* Menü bağlantıları */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Fareyle üzerine gelince */
+nav ul li a:hover {
+    color: #c8d8a8;
+}
